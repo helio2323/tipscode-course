@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: none;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+:root {
+    --cyan: hsl(178, 100%, 50%);
+    --softblue: hsl(215, 51%, 70%);
+    --verydarkblue: hsl(215, 32%, 27%);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100vh;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.5rem;
+    max-width: 300px;
+    padding: 1.5rem;
+    box-shadow: 5px 10px hsl(216, 50%, 13%) ;
+    margin-bottom: 2rem;
+}
+#equilibrium-img {
+
+    border-radius: 0.5rem;
+    width: 100%;
+    
+}
+
+.head-itens {
+    color: white;
+    width: 100%;
+    margin-top: 1rem;
+
+}
+
+.head-itens p {
+    color: var(--softblue);
+    font-size: 18px;
+    margin-top: 1rem;
+
+}
+
+.middle-itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:  100%;
+    margin: 1.5rem;
+}
+
+.eth-price {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    color: var(--cyan);
+}
+
+.eth-price img {
+    margin-right: 0.5rem;
+}
+
+.leadtime {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    color: var(--softblue);
+}
+
+.leadtime img {
+    margin-right: 0.5rem;
+}
+
+.line {
+    background-color: var(--verydarkblue);
+    height: 2px;
+    width: 100%;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 1.5rem;
+    color: var(--softblue);
+}
+
+.bottom img {
+    width: 40px;
+    border: 1px;
+    border-color: white;
+    margin-right: 1rem;
+}
+
+.autor{
+    color: white;
+    font-weight: bold;
+}
